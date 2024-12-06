@@ -1,0 +1,319 @@
+.nav1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav2 {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.bnav {
+    margin-left: 20px;
+    padding: 10px 25px;
+    background-color:#96BB7C;
+    color: white;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.a1 {
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.pmain{
+    color: #96BB7C;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.pmain1{
+    color: white;
+    margin-top: 80px;
+}
+
+.main h1{
+    color: white;
+    margin: 30px;
+    font-size: 60px;
+}
+
+.btn2 {
+    padding: 8px 40px;
+    background-color: #96BB7C;
+    border: none;
+    margin-top: 20px;
+}
+
+.s1 {
+    margin: 90px 0px;
+}
+
+.card{
+    padding: 50px 40px;
+    box-shadow: 5px 5px 9px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+    transition: all ease-in-out .3s;
+}
+
+.card:hover{
+    background-color: #96BB7C;
+    transform: scale(1.1);
+}
+
+.imgs1 {
+    width: 80px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.txtcard h2 {
+    font-size: 23px;
+    margin-top: 20px;
+    padding-bottom: 2px;
+}
+
+.txtcard p {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.s3 {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.txts3 h2 {
+    padding-top: 40px;
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+.txts3 p {
+    font-size: 20px;
+}
+
+.d2{
+    margin-bottom: 90px;
+}
+
+.imgd{
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.d1 {
+    text-align: center;
+}
+
+.m1{
+    width: 100px;
+}
+
+.kk {
+    color: rgb(44, 184, 8);
+}
+
+.star{
+    padding: 20px;
+}
+.d1 p{
+    margin-bottom: 0;
+}
+
+.hh4 {
+    z-index: 55;
+    
+}
+
+.cartepec {
+    border-radius: 15px 15px 0px 0px;
+    margin-bottom: 30px;
+    width: 240px;
+}
+
+.carte {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+    width: 240px;
+    border-radius: 15px 15px 15px 15px;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+.carte h2 {
+    font-size: 22px;
+}
+
+.carte svg {
+    color: #96BB7C;
+    margin: 0px 10px;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 17px;
+}
+
+.txtca :first-child {
+    color: #96BB7C;
+    margin-top: 120px;
+}
+
+.txtca :last-child {
+    font-size: 16px;
+    color: gray;
+    margin-bottom: 60px;
+}
+
+.txtca h2 {
+    font-size: 45px;
+}
+
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.main {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 0;
+}
+
+.navbar {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+.slast :first-child{
+    color: #96BB7C;
+    margin-top: 20px;
+}
+
+.slast :last-child {
+    font-size: 16px;
+    color: gray;
+    margin-bottom: 60px;
+}
+
+.slast h2 {
+    font-size: 45px;
+}
+
+.d2 h2{
+    font-size: 45px;
+}
+
+.formail {
+    text-align: center;
+    margin: 100px 20px;
+}
+
+.ff input {
+    padding: 11px 400px 11px 11px;
+    border: 1px rgb(205, 205, 205) solid;
+    background-color: rgba(128, 128, 128, 0.077);
+    border-radius: 5px 0px 0px 5px;
+    outline: none;
+}
+
+.ff button {
+    padding: 10px 20px;
+    border: 1px rgb(205, 205, 205) solid;
+    background-color: #96BB7C;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.ff {
+    margin-bottom: 250px;
+    margin-top: 100px;
+}
+
+.foot ul li {
+    list-style-type: none;
+}
+
+ul li svg {
+    color: #96BB7C;
+    width: 20px;
+    height: 20px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+}
+
+.made {
+    background-color: rgba(121, 121, 121, 0.1);
+    padding: 30px 60px;
+}
+
+.made p {
+    margin: 0;
+    margin-left: 30px;
+}
+
+.made svg {
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    color: #6e8062;
+}
+
+.nav-item {
+    position: relative;
+}
+
+.nav-item::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color: #ffffff; 
+    transition: width 0.3s ease; 
+}
+
+.nav-item:hover::after {
+    width: 100%;
+}
+
+.adss {
+    margin-bottom: 120px;
+}
